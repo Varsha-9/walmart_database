@@ -1,0 +1,13 @@
+create a folder and create a virtual environment
+create an ipynb file
+install ipynb kernel lib
+updated pip
+downloaded kaggle api dataset
+unzip kaggle dataset
+install pandas 
+load csv file by ignoring encountered errors
+removed dollar sign and created a column 'total'
+libraries imported 
+1) pandas
+2) pymysql
+3) sqlalchemy create_engine
