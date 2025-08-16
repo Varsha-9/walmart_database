@@ -55,7 +55,23 @@ walmart_project/
    python load_data.py
    ```
    This script reads walmart.csv (raw data) or walmart_clean_data.csv (cleaned data) and writes it to your MySQL database using pandas .to_sql() and SQLAlchemy.
-pip install pandas sqlalchemy pymysql python-dotenv
+
+## SQL Queries Example
+
+   Once the data is loaded, you can run queries like:
+```sql
+   -- Check top 10 sales records
+SELECT * FROM walmart LIMIT 10;
+
+-- Aggregate sales by store
+SELECT Store, SUM(Sales) AS Total_Sales
+FROM walmart
+GROUP BY Store;
+
+-- Filter sales for a specific date
+SELECT * FROM walmart
+WHERE Date = '2012-01-06';
+```
 
 varsha
 
