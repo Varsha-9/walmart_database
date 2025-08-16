@@ -12,7 +12,9 @@ walmart_project/
 ├── config.py   # Loads environment variables for DB connection
 
 ├── load_data.py   # Script to load CSV into MySQL using pandas & SQLAlchemy
+
 ├── test_config.py   # Test DB connection
+
 ├── walmart.csv   # Raw Walmart sales data (not tracked in Git)
 ├── walmart_clean_data.csv   # Cleaned Walmart sales data (not tracked in Git)
 ├── .env   # Environment variables (ignored in Git)
