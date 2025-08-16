@@ -10,6 +10,7 @@ This project demonstrates how to load Walmart sales data into a MySQL database u
 walmart_project/
 │
 ├── config.py   # Loads environment variables for DB connection
+
 ├── load_data.py   # Script to load CSV into MySQL using pandas & SQLAlchemy
 ├── test_config.py   # Test DB connection
 ├── walmart.csv   # Raw Walmart sales data (not tracked in Git)
